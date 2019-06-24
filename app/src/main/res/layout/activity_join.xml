@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeee7"
+    android:orientation="vertical"
+    tools:context=".Login.JoinActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/dog12" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/joinId"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:background="@drawable/roundd"
+                android:hint="아이디"
+                android:paddingLeft="10dp"
+                android:textColor="#4e4138"
+                android:textColorHint="#4e4138" />
+
+
+            <EditText
+                android:id="@+id/joinName"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundd"
+                android:hint="닉네임"
+                android:paddingLeft="10dp"
+                android:textColor="#4e4138"
+                android:textColorHint="#4e4138" />
+
+            <EditText
+                android:id="@+id/joinPassword"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundd"
+                android:hint="비밀번호"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="#4e4138"
+                android:textColorHint="#4e4138" />
+
+            <EditText
+                android:id="@+id/joinPassword2"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundd"
+                android:hint="비밀번호 확인"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="#4e4138"
+                android:textColorHint="#4e4138" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/doubleCheckButton"
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounnd6"
+            android:text="중복확인"
+            android:textColor="@android:color/background_light"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/joinButton"
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/rounnd7"
+            android:text="회원가입"
+            android:textColor="@android:color/background_light"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounnd7"
+            android:text="취소"
+            android:textColor="@android:color/background_light"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+<LinearLayout
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/dog4"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/dog4"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/dog4"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/dog4"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dog4"/>
+</LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

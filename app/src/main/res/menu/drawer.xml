@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/adoptZzim"
+            android:checked="true"
+            android:icon="@drawable/zzim"
+            android:title="분양 찜 목록" />
+        <item
+            android:id="@+id/adoptWriteList"
+            android:icon="@drawable/write"
+            android:title="분양 내가 쓴 글" />
+        <item
+            android:id="@+id/chatList"
+            android:icon="@drawable/chat"
+            android:title="채팅 리스트" />
+    </group>
+
+    <item android:title="@string/menu_title_name">
+    <menu>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/zzim"
+            android:id="@+id/shopZzim"
+            android:title="위시리스트" />
+
+        <item
+            android:icon="@drawable/cart"
+            android:id="@+id/cart"
+            android:title="장바구니" />
+
+
+        <item
+            android:icon="@drawable/shop"
+            android:id="@+id/shopList"
+            android:title="주문리스트" />
+
+    </group>
+
+    </menu>
+    </item>
+
+    <item android:title="   ">
+        <menu>
+    <item
+        android:icon="@drawable/logout"
+        android:id="@+id/logoutButton"
+        android:title="로그아웃"/>
+
+        </menu>
+    </item>
+
+    </menu>

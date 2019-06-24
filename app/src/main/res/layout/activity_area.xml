@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adopt.AreaActivity"
+    android:background="@color/lightGray">
+
+<LinearLayout
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/area1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="서울시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="경기도"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="강원도"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/area4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="인천시"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="충청북도"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="충청남도"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/area7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="세종시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="대전시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경상북도"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/area10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="대구시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="울산시"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="부산시"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/area13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경상남도"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="전라북도"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="전라남도"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/area16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="광주시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="제주시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/area19"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경기도 전체"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="가평군"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="고양시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/area22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경기도 전체"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="가평군"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="고양시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/area25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경기도 전체"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area26"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="가평군"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area27"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="고양시"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/area28"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경기도 전체"
+            android:textColor="#373d39"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area29"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="가평군"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="고양시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/area31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="경기도 전체"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/area32"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="가평군"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/area33"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="고양시"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#373d39"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/areaarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/lightGray"/>
+
+
+
+
+</LinearLayout>
+
+</FrameLayout>
